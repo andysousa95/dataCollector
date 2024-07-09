@@ -6,11 +6,11 @@ const express = require('express');
 const appApi = express();
 
 const pool = new Pool({
-  user: process.env.DB_USER || 'nhiwju_integra',
-  host: process.env.DB_HOST || 'postgres-ag-br1-4.hospedagemelastica.com.br',
-  database: process.env.DB_NAME || 'nhiwju_integra',
-  password: process.env.DB_PASSWORD || 'aim6pyxqRT',
-  port: process.env.DB_PORT || 54228,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
 const corsOptions = {
