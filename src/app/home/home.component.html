@@ -1,0 +1,7 @@
+<div class="redirection-container" *ngIf="countdown > 0">
+  <p>Redirecionando em {{ countdown }} segundos...</p>
+  <p>
+    Clique <span class="clickable" (click)="redirecionarManual()">aqui</span> caso você não seja redirecionado automaticamente.
+  </p>
+</div>
+<router-outlet></router-outlet>

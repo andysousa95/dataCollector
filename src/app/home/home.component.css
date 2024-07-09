@@ -1,0 +1,40 @@
+/* Fonte usada no site da TV Integração */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2; /* Fundo claro */
+  color: #333; /* Cor do texto */
+}
+
+.redirection-container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ffffff; /* Fundo branco */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333; /* Cor do texto */
+}
+
+.clickable {
+  color: #005bbb; /* Azul escuro, cor principal da TV Integração */
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.clickable:hover {
+  color: #003f7d; /* Cor mais escura ao passar o mouse */
+}
+
+.clickable:active {
+  color: #002b5a; /* Cor ainda mais escura ao clicar */
+}
